@@ -1,4 +1,4 @@
-# projekt_2.py: bulls_and_cows
+# projekt2.py: bulls and cows
 # author: Jaroslav Tykal
 # email: tykal87619@mot.sps-dopravni.cz
 
