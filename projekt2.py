@@ -27,19 +27,19 @@ def plural(pocet, jednotne, mnozne):
 #funkce pro kontrolu správnosti vstupu uživatele
 def kontrola_vstupu(tip):
     if len(tip) != 4:
-        print("Zadej 4 číslice.")
+        print("Only 4 numbers!")
         return False
 
     if not tip.isdigit():
-        print("Zadej pouze čísla.")
+        print("Only numbers!")
         return False
 
     if tip[0] == "0":
-        print("Číslo nesmí začínat nulou.")
+        print("The number cannot start with 0")
         return False
 
     if len(set(tip)) != 4:
-        print("Číslice se nesmí opakovat.")
+        print("The numbers cannot be repeated!")
         return False
 
     return True
